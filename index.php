@@ -15,7 +15,6 @@
     <link href="/assets/css/signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
-
     <main class="form-signin">
       <form action="index.php" method="POST">
         <img class="mb-4" src="/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
