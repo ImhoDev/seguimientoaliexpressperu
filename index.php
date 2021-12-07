@@ -25,7 +25,7 @@
           <label for="floatingInput">Guia</label>
           <br>
         </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Convertir</button>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Seguimiento</button>
       </form>
       <?php 
         if ($_POST == null) {
