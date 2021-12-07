@@ -29,7 +29,7 @@
       </form>
       <?php 
         if ($_POST == null) {
-          echo "Número de seguimiento vacio";
+          echo "<br><div class='alert alert-danger' role='alert'>Número de seguimiento vacio</div>";
         }
         $guia = $_POST['guiax'];
         $canio = "https://global.cainiao.com/detail.htm?mailNoList=";
@@ -50,7 +50,7 @@
 
       <a href=""></a>
     </main>
-    <div class="container">
+    <div class="container row d-flex">
       <table class="table">
         <thead>
           <tr>
@@ -90,5 +90,8 @@
       </table>
       <p>lista terminada</p>
     </div>
+    <footer class="fixed-bottom">
+      <p class="text-muted"><a style="text-decoration:none" href="https://github.com/ImhoDev/guiaconversor">Proyecto en guihub</a></p>
+    </footer>  
   </body>
   </html>
