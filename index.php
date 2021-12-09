@@ -41,6 +41,11 @@
         $urbano = $urbano.$guia;
         $sunat = "https://ww3.sunat.gob.pe/ol-ad-itimportafacilmc/DepConsulta.htm?action=cargarDepConsultaEstado";
 
+        print "hola que tal".$guia."<br>";
+        
+        print "<br>".print_r($guia);
+        print "<br>".var_dump($guia);
+
         echo "<p> ";
 
        ?>
