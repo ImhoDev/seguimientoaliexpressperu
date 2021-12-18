@@ -56,6 +56,8 @@
         "mailamericas" => "https://mailamericas.com/tracking?tracking=",
         "track17" => "https://t.17track.net/en#nums=",
         "urbano" => "https://app.urbano.com.pe/plugin/etracking/etracking/?guia=BGL",
+        "Solo Urbano" => "https://app.urbano.com.pe/plugin/etracking/etracking/?guia=",
+        "Solo Urbano 1" => "https://portal.urbano.com.pe/rastrear-shipper/",
         "sunat" => "https://ww3.sunat.gob.pe/ol-ad-itimportafacilmc/DepConsulta.htm?action=cargarDepConsultaEstado"
       );
       //formato de tabla para mostrar
