@@ -29,28 +29,24 @@
       <?php 
         if ($_POST == null) {
           echo "<br><div class='alert alert-danger' role='alert'>Número de seguimiento vacio</div>";
+          $guia = 'guia';
         }
-        $guia = $_POST['guiax'];
-        $canio = "https://global.cainiao.com/detail.htm?mailNoList=";
-        $canio = $canio.$guia;
-        $mailam = "https://mailamericas.com/tracking?tracking=";
-        $mailam = $mailam.$guia;
-        $track17 = "https://t.17track.net/en#nums=";
-        $track17 = $track17.$guia;
-        $urbano = "https://app.urbano.com.pe/plugin/etracking/etracking/?guia=BGL";
-        $urbano = $urbano.$guia;
-        $sunat = "https://ww3.sunat.gob.pe/ol-ad-itimportafacilmc/DepConsulta.htm?action=cargarDepConsultaEstado";
-
-        print "hola que tal".$guia."<br>";
-        
-        print "<br>".print_r($guia);
-        print "<br>".var_dump($guia);
-
-        echo "<p> ";
+        else {
+          $guia = $_POST['guiax'];
+        }
+         $canio = "https://global.cainiao.com/detail.htm?mailNoList=";
+          $canio = $canio.$guia;
+          $mailam = "https://mailamericas.com/tracking?tracking=";
+          $mailam = $mailam.$guia;
+          $track17 = "https://t.17track.net/en#nums=";
+          $track17 = $track17.$guia;
+          $urbano = "https://app.urbano.com.pe/plugin/etracking/etracking/?guia=BGL";
+          $urbano = $urbano.$guia;
+          $sunat = "https://ww3.sunat.gob.pe/ol-ad-itimportafacilmc/DepConsulta.htm?action=cargarDepConsultaEstado";
 
        ?>
 
-      <p class="mt-5 mb-2 text-muted">Guia-conv v0.1 &copy; 2020–2021</p>
+      <p class="mt-5 mb-2 text-muted">seguimiento v0.2 &copy; 2020 – <?php echo date('Y'); ?></p>
 
       <a href=""></a>
     </main>
@@ -86,7 +82,7 @@
             <td><a href="<?php echo $urbano ?>" target="_blank"><?php echo $urbano ?></td>
           </tr>
           <tr>
-            <th scope="row">Sunat - CONSULTA ENVIOS POSTALES</th>
+            <th scope="row">ADUANAS CONSULTA de estado de ENVIOS POSTALES</th>
             <td><?php echo $guia ?></td>
             <td><a href="<?php echo $sunat ?>" target="_blank">Ingresar guia manualmete</td>
           </tr>
@@ -95,7 +91,7 @@
       <p>lista terminada</p>
     </div>
     <footer class="fixed-bottom">
-      <p class="text-muted"><a style="text-decoration:none" href="https://github.com/ImhoDev/guiaconversor">Proyecto en guihub</a></p>
+      <p class="text-muted"><a style="text-decoration:none" target="_blank" href="https://github.com/ImhoDev/guiaconversor">Proyecto en guihub</a></p>
     </footer>  
   </body>
   </html>
