@@ -42,6 +42,7 @@
           $track17 = $track17.$guia;
           $urbano = "https://app.urbano.com.pe/plugin/etracking/etracking/?guia=BGL";
           $urbano = $urbano.$guia;
+          $serpost = "http://clientes.serpost.com.pe/prj_online/Web_Busqueda.aspx";
           $sunat = "https://ww3.sunat.gob.pe/ol-ad-itimportafacilmc/DepConsulta.htm?action=cargarDepConsultaEstado";
 
        ?>
@@ -82,7 +83,12 @@
             <td><a href="<?php echo $urbano ?>" target="_blank"><?php echo $urbano ?></td>
           </tr>
           <tr>
-            <th scope="row">ADUANAS CONSULTA de estado de ENVIOS POSTALES</th>
+            <th scope="row">Serpost</th>
+            <td><?php echo $guia ?></td>
+            <td><a href="<?php echo $serpost ?>" target="_blank">Ingresar guia manualmete</td>
+          </tr>
+          <tr>
+            <th scope="row">ADUANAS | Pagan impuestos mayores a 200$ </th>
             <td><?php echo $guia ?></td>
             <td><a href="<?php echo $sunat ?>" target="_blank">Ingresar guia manualmete</td>
           </tr>
