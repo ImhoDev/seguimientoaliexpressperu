@@ -42,7 +42,7 @@
           $track17 = $track17.$guia;
           $urbano = "https://app.urbano.com.pe/plugin/etracking/etracking/?guia=BGL";
           $urbano = $urbano.$guia;
-          $serpost = "http://clientes.serpost.com.pe/prj_online/Web_Busqueda.aspx";
+          $serpost = "http://www.serpost.com.pe/Cliente/SegumientoLinea";
           $sunat = "https://ww3.sunat.gob.pe/ol-ad-itimportafacilmc/DepConsulta.htm?action=cargarDepConsultaEstado";
 
        ?>
