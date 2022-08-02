@@ -92,6 +92,11 @@
             <td><?php echo $guia ?></td>
             <td><a href="<?php echo $sunat ?>" target="_blank">Ingresar guia manualmete</td>
           </tr>
+          <tr>
+            <th scope="row">TEXAS COURIER  </th>
+            <td><?php echo 'SGH*********' ?></td>
+            <td><a href="#">No disponible</td>
+          </tr>
         </tbody>
       </table>
       <p>lista terminada</p>
