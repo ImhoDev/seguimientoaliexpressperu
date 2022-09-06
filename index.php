@@ -38,6 +38,8 @@
           $canio = $canio.$guia;
           $mailam = "https://mailamericas.com/tracking?tracking=";
           $mailam = $mailam.$guia;
+          $sunyou = "https://www.sypost.net/search?orderNo=";
+          $sunyou = $sunyou.$guia;
           $track17 = "https://t.17track.net/en#nums=";
           $track17 = $track17.$guia;
           $urbano = "https://app.urbano.com.pe/plugin/etracking/etracking/?guia=BGL";
@@ -71,6 +73,11 @@
             <th scope="row">Mailamericas</th>
             <td><?php echo $guia ?></td>
             <td><a href="<?php echo $mailam ?>" target="_blank"><?php echo $mailam ?></a></td>
+          </tr>
+          <tr>
+            <th scope="row">SunYou/sypost</th>
+            <td><?php echo $guia ?></td>
+            <td><a href="<?php echo $sunyou ?>" target="_blank"><?php echo $sunyou ?></a></td>
           </tr>
           <tr>
             <th scope="row">17TRACK</th>
